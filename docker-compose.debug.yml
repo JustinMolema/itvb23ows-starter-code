@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  itvb23owsstartercode:
+    image: itvb23owsstartercode
+    build:
+      context: .
+      dockerfile: ./Dockerfile
